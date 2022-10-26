@@ -1,0 +1,28 @@
+/* Primary Background #FFFFFF */
+/* Secondary Background #2F303A */
+/* Accent #2196F3 */
+/* Primary Text #757575 */
+/* Secondary Text #212121 */
+/* Footer Contacts rgba(255, 255, 255, 0.6); */
+
+:root {
+    --background-primary: #FFFFFF;
+    --background-secondary: #2F303A;
+    --text-primary: #757575;
+    --text-secondary: #212121;
+    --text-foter-contacts: rgba(255, 255, 255, 0.6);
+    --accent: #2196F3;
+}
+
+body {
+    color: var(--text-primary);
+    background-color: var(--background-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
