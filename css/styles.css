@@ -19,8 +19,8 @@
 }
 
 body {
-  color: var(--text-primary);
   background-color: var(--background-primary);
+  color: var(--text-primary);
   font-family: Roboto, "Helvetica Neue", "Segoe UI", sans-serif;
   letter-spacing: 0.03em;
 }
@@ -108,8 +108,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--background-primary);
   background-color: var(--accent);
+  color: var(--background-primary);
   cursor: pointer;
 }
 
@@ -187,6 +187,7 @@ body {
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: inherit;
+  background-color: var(--background-button-and-team);
   color: var(--background-secondary);
   cursor: pointer;
 }
