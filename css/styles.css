@@ -13,7 +13,7 @@
   --background-button-and-team: #f5f4fa;
   --text-primary: #757575;
   --text-secondary: #212121;
-  --text-foter-contacts: rgba(255, 255, 255, 0.6);
+  --text-footer-contacts: rgba(255, 255, 255, 0.6);
   --accent: #2196f3;
   --header-logo-color: #000000;
 }
@@ -34,7 +34,6 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -56,7 +55,7 @@ body {
   background-color: var(--background-secondary);
 }
 
-/* -----------Навівація----------- */
+/* -----------Навігація----------- */
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -116,7 +115,6 @@ body {
 /* -----------Переваги----------- */
 
 .advantages-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -169,7 +167,7 @@ body {
 .footer-contact {
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: var(--text-foter-contacts);
+  color: var(--text-footer-contacts);
 }
 
 .address {
@@ -201,7 +199,6 @@ body {
 /* -----------Картки портфоліо----------- */
 
 .portfolio-card-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
